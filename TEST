@@ -1,0 +1,4 @@
+ if ((OVRInput.Get(OVRInput.Button.PrimaryTouchpad)) && (this.GetComponent<LineRenderer>().enabled == true)) ;
+        {
+            this.GetComponent<LineRenderer>().enabled = false;
+        }X
